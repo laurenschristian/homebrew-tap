@@ -1,6 +1,6 @@
 cask "localflow" do
-  version "0.9.0"
-  sha256 "de3c4c71f531996654dcfd0f3a83fd9f40f648d68743b4030ccdd56a9f1babb4"
+  version "0.10.0"
+  sha256 "56da8073f763d4ca1331ddbd5d8d621b8ca036cf3c604b9b962cea08d98ad034"
 
   url "https://github.com/laurenschristian/local-flow/releases/download/v#{version}/LocalFlow-v#{version}-mac-arm64.dmg"
   name "LocalFlow"
