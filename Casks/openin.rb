@@ -1,6 +1,6 @@
 cask "openin" do
-  version "1.3.0"
-  sha256 "c39d26924398183fefee4da73ec3c8b3d89f9ddd5de7a8be82fcfaa47b6ffd1e"
+  version "1.5.0"
+  sha256 "c462401a2e30ace1362a03f2b20a1576ec3b3d2284d9ceac2c37dfe066b08fb3"
 
   url "https://github.com/laurenschristian/OpenInApp/releases/download/v#{version}/OpenIn-v#{version}.dmg"
   name "OpenIn"
