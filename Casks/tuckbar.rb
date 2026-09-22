@@ -14,4 +14,9 @@ cask "tuckbar" do
   uninstall quit: "com.laurenschristian.tuckbar"
 
   zap trash: "~/Library/Preferences/com.laurenschristian.tuckbar.plist"
+
+  caveats <<~EOS
+    TuckBar is not notarized. Before the first launch, run:
+      xattr -dr com.apple.quarantine /Applications/TuckBar.app
+  EOS
 end
