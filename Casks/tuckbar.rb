@@ -7,14 +7,9 @@ cask "tuckbar" do
   desc "Hide menu bar icons with a flat, tiny memory footprint"
   homepage "https://github.com/laurenschristian/tuckbar"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "TuckBar.app"
-
-  # Not notarized; strip quarantine so Gatekeeper does not block first launch.
-  postflight do
-    system_command "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "#{appdir}/TuckBar.app"]
-  end
 
   uninstall quit: "com.laurenschristian.tuckbar"
 
