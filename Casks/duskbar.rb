@@ -4,7 +4,7 @@ cask "duskbar" do
 
   url "https://github.com/laurenschristian/duskbar/releases/download/v#{version}/DuskBar-v#{version}.dmg"
   name "DuskBar"
-  desc "Warms the screen color with the real sun, a tiny f.lux replacement"
+  desc "Warms the screen color with the real sun"
   homepage "https://github.com/laurenschristian/duskbar"
 
   depends_on macos: :ventura
@@ -18,6 +18,6 @@ cask "duskbar" do
   caveats <<~EOS
     DuskBar is not notarized. Before the first launch, run:
       xattr -dr com.apple.quarantine /Applications/DuskBar.app
-    Quit f.lux or other screen color apps first; they fight over the display.
+    Quit other screen color apps first; they fight over the display.
   EOS
 end
