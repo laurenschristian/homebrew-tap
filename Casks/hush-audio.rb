@@ -1,4 +1,4 @@
-cask "hush" do
+cask "hush-audio" do
   version "0.4.0"
   sha256 "8ab34c3a05fe892c11ede7e9b4aecb62f9f1bd68e6326ab785f76776adca543e"
 
@@ -7,6 +7,7 @@ cask "hush" do
   desc "Blocks Apple Music, keeps AirPods off the mic, and routes play to your player"
   homepage "https://github.com/laurenschristian/hush"
 
+  conflicts_with cask: "hush"
   depends_on macos: :sonoma
 
   app "Hush.app"
