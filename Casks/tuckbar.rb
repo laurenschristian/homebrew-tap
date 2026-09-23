@@ -1,6 +1,6 @@
 cask "tuckbar" do
-  version "1.2.0"
-  sha256 "887f026285c96eb3be5e7831acc03007b33fc533ae0eb60224e080023d5dc6e4"
+  version "1.3.0"
+  sha256 "1f8dcbd596f2153e8482e4804cd53b2de72d39289720544e1762a0cec623c89f"
 
   url "https://github.com/laurenschristian/tuckbar/releases/download/v#{version}/TuckBar-v#{version}.dmg"
   name "TuckBar"
