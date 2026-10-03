@@ -1,6 +1,6 @@
 cask "duskbar" do
-  version "1.0.2"
-  sha256 "478bf3ceacf73d24012cfc854a9331beab35191b2d5b3433ec1949ec352dbc2b"
+  version "1.0.3"
+  sha256 "19a4ad0e79cf70e8cc65d07fa014177070dd524f68bfb44a5db6ff0fb3095496"
 
   url "https://github.com/laurenschristian/duskbar/releases/download/v#{version}/DuskBar-v#{version}.dmg"
   name "DuskBar"
