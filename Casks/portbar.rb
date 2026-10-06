@@ -1,6 +1,6 @@
 cask "portbar" do
-  version "1.1.0"
-  sha256 "1666380e82a3ac6a4b19b1eef7d65944c982b0380405b882d7fa55b9f27eb92d"
+  version "1.1.1"
+  sha256 "fd5305bd0c03e2fd71d913981b77c872e584414ab185dc6947b8d865ce3c6b78"
 
   url "https://github.com/laurenschristian/portbar/releases/download/v#{version}/PortBar-v#{version}.dmg"
   name "PortBar"
