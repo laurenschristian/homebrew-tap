@@ -9,6 +9,10 @@ cask "localflow" do
 
   app "LocalFlow.app"
 
+  postflight do
+    system_command "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "#{appdir}/LocalFlow.app"]
+  end
+
   zap trash: [
     "~/Library/Application Support/LocalFlow",
   ]
