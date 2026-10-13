@@ -31,9 +31,9 @@ cask "dsmctl" do
   fish_completion "completions/dsmctl.fish"
   zsh_completion "completions/_dsmctl"
 
-  postflight do
-    if OS.mac?
-      system_command "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "#{staged_path}/dsmctl"]
+  postflight_steps do
+    on_macos do
+      run "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "{{staged_path}}/dsmctl"]
     end
   end
 
