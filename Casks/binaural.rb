@@ -1,6 +1,6 @@
 cask "binaural" do
-  version "2.0.0"
-  sha256 "058abd874fef676e778872b2ea8a450b3971286198282fef54a65f8d7c668beb"
+  version "2.0.1"
+  sha256 "33af948852cc9c477299cdc5ac76ce1ed2d4688561dc2bc518bbfee66b992b28"
 
   url "https://github.com/laurenschristian/binaural-releases/releases/download/v#{version}/Binaural.dmg"
   name "Binaural"
